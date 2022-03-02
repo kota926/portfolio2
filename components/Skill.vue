@@ -16,21 +16,21 @@
                     <v-chip
                     outlined
                     color="success"
-                    class="text-subtitle-1 mx-3"
+                    class="text-subtitle-1 mx-3 my-1"
                     >
                         vue.js
                     </v-chip>
                     <v-chip
                     outlined
                     color="green accent-4"
-                    class="text-subtitle-1 mx-3"
+                    class="text-subtitle-1 mx-3 my-1"
                     >
                         nuxt
                     </v-chip>
                     <v-chip
                     outlined
                     color="primary"
-                    class="text-subtitle-1 mx-3"
+                    class="text-subtitle-1 mx-3 my-1"
                     >
                         vuetify
                     </v-chip>
@@ -44,21 +44,21 @@
                     <v-chip
                     outlined
                     color="success"
-                    class="text-subtitle-1 mx-3"
+                    class="text-subtitle-1 mx-3 my-1"
                     >
                         node.js
                     </v-chip>
                     <v-chip
                     outlined
                     color="red accent-3"
-                    class="text-subtitle-1 mx-3"
+                    class="text-subtitle-1 mx-3 my-1"
                     >
                         GraphQL
                     </v-chip>
                     <v-chip
                     outlined
                     color="orange"
-                    class="text-subtitle-1 mx-3"
+                    class="text-subtitle-1 mx-3 my-1"
                     >
                         Mysql
                     </v-chip>
@@ -72,21 +72,21 @@
                     <v-chip
                     outlined
                     color="orange"
-                    class="text-subtitle-1 mx-3"
+                    class="text-subtitle-1 mx-3 my-1"
                     >
                         AWS ECS
                     </v-chip>
                     <v-chip
                     outlined
                     color="orange"
-                    class="text-subtitle-1 mx-3"
+                    class="text-subtitle-1 mx-3 my-1"
                     >
                         AWS amplify
                     </v-chip>
                     <v-chip
                     outlined
                     color="primary"
-                    class="text-subtitle-1 mx-3"
+                    class="text-subtitle-1 mx-3 my-1"
                     >
                         Docker
                     </v-chip>

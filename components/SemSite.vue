@@ -50,7 +50,10 @@
                             サイトURL
                         </v-card-subtitle>
                         <v-card-text>
-                            <a href="https://www.waseda.jp/sem-kanazawa/">https://www.waseda.jp/sem-kanazawa/</a>
+                            <a
+                            href="https://www.waseda.jp/sem-kanazawa/"
+                            target="_blank" rel="noopener noreferrer"
+                            >https://www.waseda.jp/sem-kanazawa/</a>
                         </v-card-text>
                     </v-card>
                 </v-col>

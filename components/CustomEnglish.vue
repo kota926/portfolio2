@@ -46,19 +46,24 @@
                             <span>vuetify</span>
                             <span>/</span>
                             <span>aws amplify</span>
-                            <span>/</span>
                         </v-card-text>
                         <v-card-subtitle>
                             ソースコード
                         </v-card-subtitle>
                         <v-card-text>
-                            <a href="https://github.com/kota926/word-list">https://github.com/kota926/word-list</a>
+                            <a
+                            href="https://github.com/kota926/word-list"
+                            target="_blank" rel="noopener noreferrer"
+                            >https://github.com/kota926/word-list</a>
                         </v-card-text>
                         <v-card-subtitle>
                             サイトURL
                         </v-card-subtitle>
                         <v-card-text>
-                            <a href="https://master.d1pazmes2f7ewt.amplifyapp.com/">https://master.d1pazmes2f7ewt.amplifyapp.com/</a>
+                            <a
+                            href="https://master.d1pazmes2f7ewt.amplifyapp.com/"
+                            target="_blank" rel="noopener noreferrer"
+                            >https://master.d1pazmes2f7ewt.amplifyapp.com/</a>
                         </v-card-text>
                         <v-card-subtitle>
                             サンプルアカウント

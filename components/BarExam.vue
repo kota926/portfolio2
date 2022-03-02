@@ -57,13 +57,19 @@
                             ソースコード
                         </v-card-subtitle>
                         <v-card-text>
-                            <a href="https://github.com/kota926/bar-exam">https://github.com/kota926/bar-exam</a>
+                            <a
+                            href="https://github.com/kota926/bar-exam"
+                            target="_blank" rel="noopener noreferrer"
+                            >https://github.com/kota926/bar-exam</a>
                         </v-card-text>
                         <v-card-subtitle>
                             サイトURL
                         </v-card-subtitle>
                         <v-card-text>
-                            <a href="https://lawapp.link/auth">https://lawapp.link/auth</a>
+                            <a
+                            href="https://lawapp.link/auth"
+                            target="_blank" rel="noopener noreferrer"
+                            >https://lawapp.link/auth</a>
                         </v-card-text>
                         <v-card-subtitle>
                             サンプルアカウント

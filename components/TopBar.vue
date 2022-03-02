@@ -44,35 +44,13 @@ export default defineComponent({
             workLocation.value = workElement.getBoundingClientRect().top
             skillLocation.value = skillElement.getBoundingClientRect().top
         })
-        // const workLocation = computed(() => {
-        //     const workElement = document.getElementById('work')
-        //     const workTop = workElement.getBoundingClientRect().top
-        //     return workTop
-        // })
-        // const skillLocation = computed(() => {
-        //     const skillElement = document.getElementById('skill')
-        //     const skillTop = skillElement.getBoundingClientRect().top
-        //     return skillTop
-        // })
-        // const activeTab = computed(() => {
-        //     if(0 <= data.scrollY < workLocation) {
-        //         return 'top'
-        //     } else if(data.scrollY < skillLocation) {
-        //         return 'work'
-        //     } else {
-        //         return 'skill'
-        //     }
-        // })
         watch(scrollY, () => {
-            console.log(workLocation.value)
-            console.log(skillLocation.value);
             if(skillLocation.value <= 30) {
                 activeTab.value = 2
             } else if(workLocation.value <= 80) {
                 activeTab.value = 1
             } else {
                 activeTab.value = 0
-                
             }
         })
         return {
