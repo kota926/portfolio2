@@ -92,6 +92,34 @@
                     </v-chip>
                 </v-card-text>
             </v-card>
+            <v-card class="my-10">
+                <v-card-text class="text-center">
+                    その他
+                </v-card-text>
+                <v-card-text class="text-center">
+                    <v-chip
+                    outlined
+                    color="green"
+                    class="text-subtitle-1 mx-3 my-1"
+                    >
+                        英検1級
+                    </v-chip>
+                    <v-chip
+                    outlined
+                    color="primary"
+                    class="text-subtitle-1 mx-3 my-1"
+                    >
+                        TOEIC 905点
+                    </v-chip>
+                    <v-chip
+                    outlined
+                    color="orange"
+                    class="text-subtitle-1 mx-3 my-1"
+                    >
+                        行政書士試験合格
+                    </v-chip>
+                </v-card-text>
+            </v-card>
         </v-container>
     </div>
 </template>
