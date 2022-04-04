@@ -8,8 +8,14 @@
         <v-container class="contain">
             <v-row>
                 <v-col
-                xs="12"
-                sm="12"
+                xs="6"
+                sm="6"
+                >
+                    <ronsyou />
+                </v-col>
+                <v-col
+                xs="6"
+                sm="6"
                 >
                     <bar-exam />
                 </v-col>
@@ -34,10 +40,11 @@
 import { defineComponent } from '@nuxtjs/composition-api'
 import BarExam from './BarExam.vue'
 import CustomEnglish from './CustomEnglish.vue'
+import Ronsyou from './Ronsyou.vue'
 import SemSite from './SemSite.vue'
 
 export default defineComponent({
-  components: { BarExam, CustomEnglish, SemSite },
+  components: { BarExam, CustomEnglish, SemSite, Ronsyou },
     setup () {
         
 

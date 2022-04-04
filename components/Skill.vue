@@ -29,10 +29,17 @@
                     </v-chip>
                     <v-chip
                     outlined
+                    color="error"
+                    class="text-subtitle-1 mx-3 my-1"
+                    >
+                        react
+                    </v-chip>
+                    <v-chip
+                    outlined
                     color="primary"
                     class="text-subtitle-1 mx-3 my-1"
                     >
-                        vuetify
+                        Typescript
                     </v-chip>
                 </v-card-text>
             </v-card>
@@ -54,6 +61,13 @@
                     class="text-subtitle-1 mx-3 my-1"
                     >
                         GraphQL
+                    </v-chip>
+                    <v-chip
+                    outlined
+                    color="orange"
+                    class="text-subtitle-1 mx-3 my-1"
+                    >
+                        laravel
                     </v-chip>
                     <v-chip
                     outlined
