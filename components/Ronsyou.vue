@@ -90,9 +90,9 @@
                         </v-card-subtitle>
                         <v-card-text>
                             <div>
-                                <span class="mr-2">ユーザー名</span>
+                                <span class="mr-2">メール</span>
                                 <span class="mr-2">:</span>
-                                <span>test</span>
+                                <span>test@sample.com</span>
                             </div>
                             <div>
                                 <span class="mr-2">パスワード</span>
