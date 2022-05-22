@@ -66,10 +66,10 @@
                             サイトURL
                         </v-card-subtitle>
                         <v-card-text>
-                            <a
-                            href="https://lawapp.link/auth"
+                            <p
+                            
                             target="_blank" rel="noopener noreferrer"
-                            >https://lawapp.link/auth</a>
+                            >https://lawapp.link/auth（停止中）</p>
                         </v-card-text>
                         <v-card-subtitle>
                             サンプルアカウント
