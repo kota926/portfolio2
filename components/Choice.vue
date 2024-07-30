@@ -5,15 +5,15 @@
     @click.stop="data.isDialog = true"
     >
         <v-img
-        src="/custom.png"
-        height="200"
+        src="/choice_quiz.png"
         class="img"
+        max-height="400"
         />
         <v-divider></v-divider>
         <v-card
         flat>
             <v-card-text class="text-center">
-                カスタム英文帳
+                みんなの論証集
             </v-card-text>
         </v-card>
     </v-card>
@@ -32,52 +32,66 @@
                     flat
                     >
                         <v-card-title>
-                            カスタム英文帳
+                            短答式対策問題集２
                         </v-card-title>
                         <v-card-text>
-                            <p>英単語を英文の中で覚えることを目的に作られた、ユーザーが単語帳を自作する英単語学習アプリです。</p>
+                            <p>司法試験の短答式試験の対策を行うアプリです。最後に解いた問題から再開する機能があります。</p>
                         </v-card-text>
                         <v-card-title>
                             使用技術
                         </v-card-title>
                         <v-card-text>
-                            <span>nuxt</span>
+                            <span>react</span>
                             <span>/</span>
-                            <span>vuetify</span>
+                            <span>mui</span>
                             <span>/</span>
-                            <span>aws amplify</span>
+                            <span>laravel</span>
+                            <span>/</span>
+                            <span>mysql</span>
+                            <span>/</span>
+                            <span>docker</span>
+                            <span>/</span>
+                            <span>aws ecs</span>
+                        </v-card-text>
+                        <v-card-title>
+                            機能
+                        </v-card-title>
+                        <v-card-text>
+                            <span>ログイン</span>
+                            <span>/</span>
+                            <span>前回から再開</span>
                         </v-card-text>
                         <v-card-subtitle>
                             ソースコード
                         </v-card-subtitle>
                         <v-card-text>
                             <a
-                            href="https://github.com/kota926/word-list"
+                            href="https://github.com/kota926/choice-app"
                             target="_blank" rel="noopener noreferrer"
-                            >https://github.com/kota926/word-list</a>
+                            >https://github.com/kota926/choice-app</a>
                         </v-card-text>
                         <v-card-subtitle>
                             サイトURL
                         </v-card-subtitle>
                         <v-card-text>
-                            <p
-                            href="https://master.d1pazmes2f7ewt.amplifyapp.com/"
+                            <a
+                            href='https://lawexam.link/login'
                             target="_blank" rel="noopener noreferrer"
-                            >https://master.d1pazmes2f7ewt.amplifyapp.com/（停止中）</p>
+                            >https://lawexam.link/login</a>
                         </v-card-text>
                         <v-card-subtitle>
                             サンプルアカウント
                         </v-card-subtitle>
                         <v-card-text>
                             <div>
-                                <span class="mr-2">ユーザー名</span>
+                                <span class="mr-2">メール</span>
                                 <span class="mr-2">:</span>
-                                <span>sample</span>
+                                <span>sample@sample.com</span>
                             </div>
                             <div>
                                 <span class="mr-2">パスワード</span>
                                 <span class="mr-2">:</span>
-                                <span>sample2022</span>
+                                <span>passpass</span>
                             </div>
                         </v-card-text>
                     </v-card>
@@ -89,19 +103,15 @@
                    <v-card>
                         <v-carousel>
                             <v-carousel-item
-                            src="/custom_login.png"
+                            src="/choice_login.png"
                             class="carousel"
                             ></v-carousel-item>
                             <v-carousel-item
-                            src="/custom_top_page.png"
+                            src="/choice_home.png"
                             class="carousel"
                             ></v-carousel-item>
                             <v-carousel-item
-                            src="/custom_list.png"
-                            class="carousel"
-                            ></v-carousel-item>
-                            <v-carousel-item
-                            src="/custom_test.png"
+                            src="/choice_quiz.png"
                             class="carousel"
                             ></v-carousel-item>
                         </v-carousel>
@@ -131,6 +141,9 @@ export default defineComponent({
 
 <style scoped>
 .img {
+    object-fit: cover;
+}
+.carousel {
     object-fit: cover;
 }
 </style>

@@ -4,7 +4,7 @@
     color="#091E61"
     >
         <div class="content">
-            <p>Shimmura Kota -2022</p>
+            <p>Shimmura Kota -2024</p>
         </div>
     </v-footer>
 </template>
