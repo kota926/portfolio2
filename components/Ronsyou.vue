@@ -80,10 +80,10 @@
                             サイトURL
                         </v-card-subtitle>
                         <v-card-text>
-                            <p
-                            
+                            <a
+                            href='https://lawexam.link/login'
                             target="_blank" rel="noopener noreferrer"
-                            >https://lawexam.link/search（停止中）</p>
+                            >https://lawexam.link/login</a>
                         </v-card-text>
                         <v-card-subtitle>
                             サンプルアカウント

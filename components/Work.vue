@@ -11,6 +11,12 @@
                 xs="6"
                 sm="6"
                 >
+                    <choice />
+                </v-col>
+                <v-col
+                xs="6"
+                sm="6"
+                >
                     <ronsyou />
                 </v-col>
                 <v-col
@@ -25,12 +31,6 @@
                 >
                     <custom-english />
                 </v-col>
-                <v-col
-                xs="6"
-                sm="6"
-                >
-                    <sem-site />
-                </v-col>
             </v-row>
         </v-container>
     </div>
@@ -41,10 +41,10 @@ import { defineComponent } from '@nuxtjs/composition-api'
 import BarExam from './BarExam.vue'
 import CustomEnglish from './CustomEnglish.vue'
 import Ronsyou from './Ronsyou.vue'
-import SemSite from './SemSite.vue'
+import Choice from './Choice.vue'
 
 export default defineComponent({
-  components: { BarExam, CustomEnglish, SemSite, Ronsyou },
+  components: { BarExam, CustomEnglish, Ronsyou, Choice },
     setup () {
         
 
