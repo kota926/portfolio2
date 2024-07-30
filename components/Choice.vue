@@ -13,7 +13,7 @@
         <v-card
         flat>
             <v-card-text class="text-center">
-                みんなの論証集
+                短答式問題集２
             </v-card-text>
         </v-card>
     </v-card>
