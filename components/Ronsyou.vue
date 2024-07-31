@@ -35,7 +35,7 @@
                             みんなの論証集
                         </v-card-title>
                         <v-card-text>
-                            <p>司法試験論文式試験を解くためには、法的論点に対する解答（論証）を身につけることが必須です。本アプリではユーザーが自分オリジナルの論証集を作り、他人と共有することができます。</p>
+                            <p>司法試験論文式試験を解くためには、法的論点に対する解答（論証）を身につけることが必須です。本アプリではユーザーが自分オリジナルの論証集を作り、他のユーザーと共有することができます。</p>
                         </v-card-text>
                         <v-card-title>
                             使用技術
@@ -92,12 +92,12 @@
                             <div>
                                 <span class="mr-2">メール</span>
                                 <span class="mr-2">:</span>
-                                <span>test@sample.com</span>
+                                <span>sample1@sample.com</span>
                             </div>
                             <div>
                                 <span class="mr-2">パスワード</span>
                                 <span class="mr-2">:</span>
-                                <span>test2022</span>
+                                <span>sample_1</span>
                             </div>
                         </v-card-text>
                     </v-card>
