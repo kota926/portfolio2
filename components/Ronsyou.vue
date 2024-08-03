@@ -79,11 +79,17 @@
                         <v-card-subtitle>
                             サイトURL
                         </v-card-subtitle>
-                        <v-card-text>
+                        <!-- <v-card-text>
                             <a
                             href='https://lawexam.link/login'
                             target="_blank" rel="noopener noreferrer"
                             >https://lawexam.link/login</a>
+                        </v-card-text> -->
+                        <v-card-text>
+                            <p
+                            href='https://lawexam.link/login'
+                            target="_blank" rel="noopener noreferrer"
+                            >https://lawexam.link/login（停止中）</p>
                         </v-card-text>
                         <v-card-subtitle>
                             サンプルアカウント
